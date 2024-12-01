@@ -45,9 +45,16 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-content p {
+    margin: 0 20px;
 }
 
 .portfolio-grid {
@@ -61,5 +68,18 @@ body {
     border: 1px solid #ccc;
     padding: 10px;
     width: 150px;
+    text-align: center;
+}
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    flex: 1;
+    margin: 10px;
+}
+
+.section h2 {
     text-align: center;
 }
