@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
 }
 
+
 .navbar {
     background-color: #333;
     color: white;
@@ -39,12 +40,21 @@ body {
     padding: 20px;
     text-align: center;
 }
+.section ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;            /* Elimina el padding por defecto */
+}
+
+.section ul li {
+    margin: 15px 0;         /* Añade un pequeño margen para separar los elementos */
+}
 
 .footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
+    margin-top: auto;
 }
 
 .footer-content {
@@ -55,6 +65,14 @@ body {
 
 .footer-content p {
     margin: 0 20px;
+}
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
 }
 
 .portfolio-grid {
